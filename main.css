@@ -1615,85 +1615,13 @@ template {
     .collapsing {
       transition: none; } }
 
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-Black.otf") format("opentype"), url("assets/ToyotaType-Black.otf") format("opentype");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-BlackIt.otf") format("opentype"), url("assets/ToyotaType-BlackIt.otf") format("opentype");
-  font-weight: 900;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-Bold.otf") format("opentype"), url("assets/ToyotaType-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-BoldIt.otf") format("opentype"), url("assets/ToyotaType-BoldIt.otf") format("opentype");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-Book.otf") format("opentype"), url("assets/ToyotaType-Book.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-BookIt.otf") format("opentype"), url("assets/ToyotaType-BookIt.otf") format("opentype");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-Light.otf") format("opentype"), url("assets/ToyotaType-Light.otf") format("opentype");
-  font-weight: 200;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-LightIt.otf") format("opentype"), url("assets/ToyotaType-LightIt.otf") format("opentype");
-  font-weight: 200;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-Regular.otf") format("opentype"), url("assets/ToyotaType-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-RegularIt.otf") format("opentype"), url("assets/ToyotaType-RegularIt.otf") format("opentype");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-Semibold.otf") format("opentype"), url("assets/ToyotaType-Semibold.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ToyotaType';
-  src: url("assets/ToyotaType-SemiboldIt.otf") format("opentype"), url("assets/ToyotaType-SemiboldIt.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic; }
-
 .component-big-header {
   margin: auto;
   perspective: 120px;
   perspective-origin: center;
   overflow: hidden;
   width: 100vw;
-  height: 54vw; }
+  height: 41vw; }
   @media (min-width: 1200px) and (max-width: 1600px) and (min-height: 1000px) {
     .component-big-header {
       min-height: 80vh;
@@ -1716,16 +1644,16 @@ template {
       width: 100%; } }
 
 .component-body-content {
-  font-family: 'ToyotaType', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   padding-bottom: 12px;
   position: relative;
   top: 0;
   max-width: 1140px;
   margin: auto;
-  background-color: #2559ac; }
+  background-color: #fff; }
   .component-body-content h2 {
-    color: white;
+    color: #2559ac;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
@@ -1736,13 +1664,13 @@ template {
         font-size: 36px;
         line-height: 42px; } }
   .component-body-content h3 {
-    color: #0B2B56;
+    color: #2559ac;
     font-size: 22px;
     line-height: 34px;
     font-weight: bold;
     margin-bottom: 24px; }
   .component-body-content p {
-    color: white;
+    color: #2559ac;
     font-size: 18px;
     padding-bottom: 16px;
     line-height: 28px;
@@ -1792,4 +1720,4 @@ template {
   margin: auto; }
 
 body {
-  background-color: #2559ac; }
+  background-color: #fff; }
